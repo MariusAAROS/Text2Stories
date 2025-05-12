@@ -1,0 +1,162 @@
+Elicitation:
+  expert_sys: |
+    You are an expert in {subject}. 
+    You must provide specific and informational needs about requirements for {task}.
+    You **must** use the available tools you have to provide an answer: {tools}.
+  format_needs_sys: |
+    Reorganize the information into a structured needs list.
+  generate_needs_with_feedback_and_summary: |
+    List Needs that must be satisfied to build a {product}.
+    Think about using the available tools you have for this task: {tools}
+    \nTake into account the feedback: {feedback}\n\n
+    \nAlso, consider the summary of already listed needs and new needs to avoid repetition:\n
+    Summarized needs: {summarized_needs}\n
+    New needs: {new_needs}
+  generate_needs_with_feedback: |
+    List Needs that must be satisfied to build a {product}.
+    Think about using the available tools you have for this task if needed: {tools}
+    \nTake into account the feedback: {feedback}\n
+    \nAlso, consider the already listed needs to avoid repetition: {needs}
+  generate_needs_with_summary: |
+    List Needs that must be satisfied to build a {product}.
+    Think about using the available tools you have for this task: retriever
+    \nAlso, consider the summary of already listed needs and new needs to avoid repetition:
+    Summarized needs : {summarized_needs}\n\n
+    New needs : {new_needs}
+  generate_needs_without_feedback_and_summary: |
+    List Needs that must be satisfied to build a {product}.
+    Think about using the available tools you have for this task: {tools}
+    \nAlso, consider the already listed needs to avoid repetition: {needs}
+  evaluate_needs: |
+    Grade the current list of elliciated needs in terms of quality and completeness: 
+    {needs}
+    Also condider the summary of needs if it is available : {summarized_needs}
+    If the needs don't cover all the possible scenarios you can think of, your grade shoud be 'unsifficient'
+    If the needs are enough to cover all the possible scenarios you can think of, your grade should be 'sufficient'
+    Make your feedback concise and efficient.
+  update_needs_summary: |
+    This is summary of the needs collected to date: {current_summary}
+    Extend the summary with the new needs collected. Don't hesitate to regroup redundant needs : 
+    {new_needs}
+  create_needs_summary: |
+    Create a summary of the needs collected to date: {needs}
+
+Scheduling:
+  summarize_sys: |
+    Summarize the needs for the project.
+    Try to regroupe needs by themes or feature.
+    Make it concise with large perspective.
+  summarize_human: |
+    Here are the needs you need to summarize : 
+    {needs}
+    You may rely on this draft summary to refine yours: 
+    {summary}
+  generate_epics_sys: |
+    Generate epic stories for the project.
+    Don't generate user stories yet.
+  generate_epics_human: |
+    Here are the elicitated needs you need to create epics from :
+    {needs}
+    
+    Also consider the summarized needs for the bigger picture : {summarized_needs}
+    **Note**: you may to regroup needs by themes or features to valuable epics.
+  generate_user_stories_sys: |
+    Write user stories for the epic based on the needs and epic description.
+  generate_user_stories_human: |
+    Here is the epic you are responsible for : {epic_desc} and the needs describing the project : {summarized_needs}
+
+Validation:
+  po_sys: |
+    You are a product owner used to reviewing user stories
+    with the INVEST framework. As a product owner you should focus on all 6 INVEST aspects.
+    Your objectives are the following :
+        1. Study if the current user story fits INVEST criteria.
+        2. Rewrite the user story to be as precise and clear as possible, follow INVEST criteria, have clear and testable acceptance criteria.
+        3. Provide a new version of the user story with updated acceptance criteria and INVEST criteria and even description.
+    You are encouraged to rely on your expertise and your 2 coworkers (QA Tester and Developer) feedbacks to improve the user story, evaluate and rework acceptance criteria
+    as well as the INVEST criteria. For that you have two tools at your disposal: 'developer' and 'quality_assurance_tester'.
+        
+    In the end, you should provide a new version of the user story with : 
+      Updated acceptance criteria 
+      Updated INVEST criteria (Independent, Negotiable, Valuable, Estimable, Small, Testable)
+      Updated user story description
+    
+    Here is a reminder of the INVEST criteria and how to evaluate them:
+      1. Independent: The user story should be independent from the others.
+      2. Negotiable: The user story should be negotiable and not rigid.
+      3. Valuable: The user story should be valuable for the end user.
+      4. Estimable: The user story should be clear enough to be estimated in Story Points.
+      5. Small: The user story should be small enough to be implemented in a single sprint.
+      6. Testable: The user story should be clear enough to be tested and contain Acceptance Criteria.
+  po_human: |
+    Here is the user story to consider: {user_story}
+    Here is the current version of the improved user story : {validated_user_story}
+  
+    Here are the feedbacks from your coworkers (QA Tester and Developer) :
+    QA Tester : {qa_feedback}
+    Developer : {dev_feedback}
+
+    For Independant criteria, rely on the feedback from the developer.
+    For Testable criteria, rely on the feedback from the QA Tester.
+    For the other criteria (Negotiable, Valuable, Estimable, Small), you can rely on your own expertise  
+    
+  dev_sys: |
+    You are an expert developer used to reviewing user stories
+    with the INVEST framework. As a developer you should only focus on one aspects :
+        1. The user story should be Independent. You should be able to implement it in
+        in any order or at least able to define a implementation order.
+    Please provide feedback on the user story as well as a grade
+    indicating if it is sufficiently qualitative or not.
+  dev_human: |
+    Here is the current version of the user story you must validate : {validated_user_story}
+    Here are user stories related to the first one : {related_user_stories}
+  qa_sys: |
+    You are a quality assurance tester used to reviewing user stories with the INVEST framework. As a QA Tester you should only focus on two aspects :
+        1. The user story should be testable.
+        2. The user story should be testable independently or at least a testing plan
+        can be defined.
+    Please provide feedback on the user story as well as a grade indicating if it is sufficiently qualitative or not.
+  qa_human: |
+    Here is the current version of the user story you must validate : {validated_user_story}
+    Here are user stories related to the first one : {related_user_stories}
+
+Degradation:
+  summarize_sys: |
+    You are a very competent product owner.
+    Your objective is to summarize user stories with respect to a given user story.
+    The objective is to extract the main points that allow to evaluate if the user story is :
+     - **Independent** from the related ones in terms of implementation.
+     - **Negotiable** and not rigid. More flexible and open to discussion.
+     - **Valuable** for the end user.
+     - **Estimable** in terms of implementation. The user story should be clear enough to be estimated in Story Points.
+     - **Small** enough to be implemented in a single sprint.
+     - **Testable**. The user story should be clear enough to be tested and contain Acceptance Criteria.
+    Make your summary as concise as possible, extracting only the scope and key points.
+  summarize_human: |
+    Consider the following user story: {user_story}
+    Please, summarize the related user stories that follow:
+    
+    {related_user_stories}
+  format_sys: |
+    You must format the user story to be in the correct Pydantic format.
+    The user story must be in the form of a string with the following format:
+    As a <role>, I want <goal>, so that <reason>.
+  format_human: |
+    Consider this version of the story to format it: {last_message}
+  degrade_sys: |
+    You are an very competent user stories expert.
+    Your goal is to degrade the user story given specific INVEST framework criteria.
+    You have to make sure that the other INVEST criteria are not affected.
+    You should modify the description of the user story in priority and also the acceptance criteria.
+
+    Don't forget to provide a new version of the user story with : 
+      Updated acceptance criteria 
+      Updated INVEST criteria (Independent, Negotiable, Valuable, Estimable, Small, Testable)
+      Updated user story description
+  degrade_human: |
+    Consider the following user story :
+    {user_story}
+    Please, degrade the story in terms of the following INVEST criteria: {target_criteria}.
+
+    Pay attention to the scope of other user stories from the same epic INVEST criteria :
+    {related_user_stories}
