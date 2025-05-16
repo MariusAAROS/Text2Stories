@@ -1,6 +1,7 @@
 # Text2Stories
 
 Complementary material for the RE2025 Demo Track Submission
+Link to our model's demo : https://youtu.be/R7WmqvGxEoc
 
 ## Model's Purpose & Use Cases
 
