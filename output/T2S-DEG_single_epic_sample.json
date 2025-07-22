@@ -1,0 +1,155 @@
+{
+  "T2S_Deg": {
+    "epics": [
+      {
+        "epic": "Management of Bonuses and Benefits",
+        "user_stories": [
+          {
+            "user_story": "As a borrower, I want to see the global effective annual rate, the total amount in euros over eight years, the total loan duration, the amount per payment period, as well as a simulation of early repayment and an estimate of the interest saved in order to fully understand the loan terms and obligations before an offer is made and plan my finances accordingly.",
+            "acceptance_criteria": [
+              "The annual percentage rate must be clearly indicated.",
+              "The total amount in euros over eight years must be specified.",
+              "The total duration of the loan must be stated.",
+              "The amount per payment period must be indicated.",
+              "It must be specified whether the amount is added to the loan repayment term.",
+              "An early repayment simulation must be provided.",
+              "An estimate of interest saved in the case of early repayment must be included.",
+              "The simulation and estimate must be updated based on changes in loan conditions (as described in user stories 3 and 6)."
+            ],
+            "independent": false,
+            "negotiable": true,
+            "valuable": true,
+            "estimable": true,
+            "small": false,
+            "testable": true,
+            "id": "T2S_Deg_EP2_US0"
+          },
+          {
+            "user_story": "As a borrower, I want to receive information about the remaining capital to be repaid at least once a year, as well as details on accrued interest and potential penalties, so that I can track the progress of my loan and understand my financial obligations.",
+            "acceptance_criteria": [
+              "The information must be provided at least once a year.",
+              "The remaining capital to be repaid must be clearly indicated.",
+              "Accrued interest must be detailed.",
+              "Potential penalties must be explained."
+            ],
+            "independent": false,
+            "negotiable": true,
+            "valuable": false,
+            "estimable": true,
+            "small": true,
+            "testable": true,
+            "id": "T2S_Deg_EP2_US1"
+          },
+          {
+            "user_story": "As a lender, I want to ensure that the value of in-kind benefits offered during a loan operation does not exceed the threshold set by the ministerial decree and that the in-kind benefits also comply with local regulations in order to remain compliant with regulations.",
+            "acceptance_criteria": [
+              "The value of in-kind bonuses must be checked against the threshold set by the ministerial decree.",
+              "A warning must be generated if the value of in-kind bonuses exceeds the threshold.",
+              "In-kind bonuses must comply with local regulations.",
+              "In-kind bonuses must be manually reviewed by an auditor."
+            ],
+            "independent": false,
+            "negotiable": false,
+            "valuable": true,
+            "estimable": false,
+            "small": true,
+            "testable": false,
+            "id": "T2S_Deg_EP2_US2"
+          },
+          {
+            "user_story": "As a lender, I want to be able to adjust the interest rate in case of borrower default within the limits set by the decree until the borrower resumes normal repayment in order to manage the risks associated with borrower defaults.",
+            "acceptance_criteria": [
+              "The interest rate must be adjustable in case of borrower default.",
+              "The interest rate adjustment must comply with the limits set by the decree.",
+              "The specific details of the adjustment and the conditions for returning to normal must be defined by a technical team and approved by the compliance committee.",
+              "The interest rate must return to normal once the borrower resumes normal repayment, subject to the approval of the compliance committee."
+            ],
+            "independent": true,
+            "negotiable": false,
+            "valuable": true,
+            "estimable": false,
+            "small": true,
+            "testable": false,
+            "id": "T2S_Deg_EP2_US3"
+          },
+          {
+            "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit when using multiple loans for the same operation, so that I do not commit to multiple loans without guarantee of their approval. Additionally, I want to be informed of the different steps of the approval process and the associated timelines.",
+            "acceptance_criteria": [
+              "Each loan must be subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit.",
+              "The borrower must not be able to commit to multiple loans without guarantee of their approval.",
+              "The borrower must be informed of the different steps in the approval process.",
+              "The borrower must be informed of the timelines associated with each step of the approval process."
+            ],
+            "independent": false,
+            "negotiable": false,
+            "valuable": true,
+            "estimable": true,
+            "small": false,
+            "testable": true,
+            "id": "T2S_Deg_EP2_US4"
+          },
+          {
+            "user_story": "As a lender, I want to ensure that standalone guarantees cannot be underwritten for loans falling under Chapters II and III of the relevant title, but only after checking the conditions of other types of guarantees and consulting with the legal department to remain compliant with regulations and internal policies.",
+            "acceptance_criteria": [
+              "Standalone guarantees must not be underwritten for loans falling under Chapters II and III of the relevant title, unless the conditions of other types of guarantees are met.",
+              "A warning must be generated if a standalone guarantee is underwritten for a loan under Chapters II and III of the relevant title, but only after consultation with the legal department.",
+              "The system must allow the lender to submit a consultation request to the legal department before finalizing the underwriting of standalone guarantees."
+            ],
+            "independent": false,
+            "negotiable": false,
+            "valuable": false,
+            "estimable": true,
+            "small": true,
+            "testable": true,
+            "id": "T2S_Deg_EP2_US5"
+          },
+          {
+            "user_story": "As a borrower, I want to see an indication that the rate could be set after studying my situation so that I understand that the loan simulation is not necessarily a final offer, but it depends on several unspecified external factors.",
+            "acceptance_criteria": [
+              "It should be indicated that the rate could be set after studying the borrower's situation, but it depends on several unspecified external factors.",
+              "The loan simulation should not be presented as a final offer, but it depends on several unspecified external factors."
+            ],
+            "independent": true,
+            "negotiable": true,
+            "valuable": false,
+            "estimable": false,
+            "small": true,
+            "testable": false,
+            "id": "T2S_Deg_EP2_US6"
+          },
+          {
+            "user_story": "As a borrower, I want to understand the different costs associated with my loan, including mandatory insurance and other potential fees, so that I can make an informed decision.",
+            "acceptance_criteria": [
+              "The total cost of the loan must be presented in a way that allows the borrower to understand the different components, including mandatory insurance and other potential fees.",
+              "Mandatory insurance and other potential fees must be clearly explained and separated from the total cost of the loan, but the borrower must be able to choose whether or not to include them in the displayed total cost.",
+              "The user interface must allow the borrower to see the impact of mandatory insurance and other potential fees on the total cost of the loan in real time."
+            ],
+            "independent": true,
+            "negotiable": true,
+            "valuable": true,
+            "estimable": false,
+            "small": true,
+            "testable": false,
+            "id": "T2S_Deg_EP2_US7"
+          },
+          {
+            "user_story": "As a borrower, I want to explore different financing options for acquiring a property, without having a clear and immediate solution, in order to compare various financing scenarios.",
+            "acceptance_criteria": [
+              "The borrower must be able to explore different financing options for acquiring a property.",
+              "The financing options presented do not necessarily have to be flexible or tailored to the borrower's specific needs.",
+              "The comparison criteria between the different financing options are not defined."
+            ],
+            "independent": true,
+            "negotiable": true,
+            "valuable": false,
+            "estimable": false,
+            "small": false,
+            "testable": false,
+            "id": "T2S_Deg_EP2_US8"
+          }
+        ],
+        "id": "T2S_Deg_EP2"
+      }
+    ]
+  }
+}

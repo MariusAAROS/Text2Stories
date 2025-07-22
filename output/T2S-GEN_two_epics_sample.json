@@ -1,0 +1,209 @@
+{
+    "T2S_Gen": {
+        "epics": [
+            {
+                "epic": "Pre-contractual information",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to see the annual effective rate, total amount in euros over eight years, and the total loan duration so that I can understand the loan's conditions and obligations before an offer is made.",
+                        "acceptance_criteria": [
+                            "The system should display the annual effective rate.",
+                            "The system should display the total amount in euros over eight years.",
+                            "The system should display the total loan duration."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP0_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to know if the amount is added to the loan repayment installment so that I can plan my finances accordingly.",
+                        "acceptance_criteria": [
+                            "The system should clearly indicate if the amount is added to the loan repayment installment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP0_US1"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to receive information on the remaining capital to be repaid at least once a year so that I can stay informed about my loan status.",
+                        "acceptance_criteria": [
+                            "The system should provide the borrower with information on the remaining capital to be repaid at least once a year."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP0_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of in-kind premiums offered during a credit operation does not exceed the threshold set by the ministerial decree so that I can comply with regulations.",
+                        "acceptance_criteria": [
+                            "The system should enforce that the value of in-kind premiums does not exceed the threshold set by the ministerial decree."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP0_US3"
+                    },
+                    {
+                        "user_story": "As a lender, I want to manage risks associated with borrower defaults within legal limits so that I can protect my interests.",
+                        "acceptance_criteria": [
+                            "The system should allow the lender to increase the interest rate within limits set by decree until the borrower resumes normal repayment in case of default."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP0_US4"
+                    }
+                ],
+                "id": "T2S_Gen_EP0"
+            },
+            {
+                "epic": "Advertising and Information",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to see the annual effective rate, total amount in euros over eight years, total loan duration, and amount per payment period so that I can understand the loan's conditions and obligations before an offer is made.",
+                        "acceptance_criteria": [
+                            "The system should display the annual effective rate.",
+                            "The system should display the total amount in euros over eight years.",
+                            "The system should display the total loan duration.",
+                            "The system should display the amount per payment period.",
+                            "The system should specify if the amount is added to the loan repayment installment."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to receive information on the remaining capital to be repaid at least once a year so that I can stay informed about my loan status.",
+                        "acceptance_criteria": [
+                            "The system should send a notification or report to the borrower at least once a year with the remaining capital to be repaid."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of in-kind premiums offered during a credit operation does not exceed the threshold set by the ministerial decree so that I can comply with regulations.",
+                        "acceptance_criteria": [
+                            "The system should validate that the value of in-kind premiums does not exceed the threshold set by the ministerial decree before finalizing the credit operation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to manage the interest rate within legal limits in case of borrower default so that I can mitigate risks associated with defaults.",
+                        "acceptance_criteria": [
+                            "The system should allow the lender to increase the interest rate within the limits set by decree in case of borrower default.",
+                            "The system should revert the interest rate to normal once the borrower resumes normal repayment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit so that I do not commit to multiple loans without guarantee of their approval.",
+                        "acceptance_criteria": [
+                            "The system should apply the suspensive condition to each loan if the amount exceeds 10% of the total credit when the borrower uses multiple loans for the same operation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US4"
+                    },
+                    {
+                        "user_story": "As a borrower, I want the system to display an error message if I attempt to subscribe to an autonomous guarantee for credits under Chapter II so that I am aware of the regulation.",
+                        "acceptance_criteria": [
+                            "The system should identify credits under Chapter II.",
+                            "The system should display an error message when an attempt is made to subscribe to an autonomous guarantee for these credits.",
+                            "The error message should specify that the action is not allowed due to regulatory compliance."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to see a clear indication that the rate will be defined after studying my situation so that I can understand the credit simulation process.",
+                        "acceptance_criteria": [
+                            "The system should clearly indicate that the rate will be defined after studying the borrower's situation during the credit simulation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that the total cost of the credit does not include mandatory insurance so that I can understand the precise cost of the credit.",
+                        "acceptance_criteria": [
+                            "The system should exclude mandatory insurance (death guarantee, total and irreversible loss of autonomy, work incapacity, and permanent disability) from the total cost of the credit during the credit simulation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US7"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to finance the acquisition of real estate without immediately mobilizing a large sum so that I can have a flexible financing solution.",
+                        "acceptance_criteria": [
+                            "The system should provide an option to finance the acquisition of real estate without requiring the immediate mobilization of a large sum."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US8"
+                    }
+                ],
+                "id": "T2S_Gen_EP1"
+            }
+        ]
+    }
+}
