@@ -1,6 +1,6 @@
 # Text2Stories
 
-Public Complementary material & Model Implementation for Text2Stories
+Public Complementary Material & Model Implementation for Text2Stories
 
 ## Model's Purpose & Use Cases
 
