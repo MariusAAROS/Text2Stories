@@ -1,0 +1,1 @@
+Lorsque la suspension du délai de péremption est la conséquence d'une décision de sursis à statuer jusqu'à la survenance d'un événement déterminé, un nouveau délai court à compter de la réalisation de cet événement et non à compter de la notification de la survenance de cet événement.

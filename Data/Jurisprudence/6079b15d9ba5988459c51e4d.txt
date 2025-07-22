@@ -1,0 +1,2 @@
+Un contrat nul ne peut produire aucun effet. S'il a été exécuté, les parties doivent être remises dans l'état où elles se trouvaient auparavant.
+ En raison de la nature des obligations résultant du contrat de prêt de main-d'oeuvre, une restitution réciproque par les parties de ce qu'elles ont reçu étant impossible, l'entreprise utilisatrice doit rembourser à l'entreprise de travail temporaire les rémunérations versées aux salariés mis à disposition.

@@ -1,0 +1,1 @@
+Lorsqu'un emprunt est souscrit par plusieurs emprunteurs, l'existence d'un risque d'endettement excessif résultant de celui-ci doit s'apprécier au regard des capacités financières globales de ces coemprunteurs

@@ -1,0 +1,2 @@
+L'exception de nullité ne peut être invoquée que pour faire échec à la demande d'exécution d'un acte juridique qui n'a pas encore été exécuté.
+Encourt, dès lors, la cassation l'arrêt qui, pour déclarer des emprunteurs recevables à invoquer, par voie d'exception, la nullité d'un acte de prêt, énonce que ceux-ci apparaissent n'avoir eu connaissance du défaut de pouvoir du mandataire qui leur avait été assigné qu'après avoir cessé le remboursement des échéances du prêt en cours

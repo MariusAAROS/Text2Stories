@@ -1,0 +1,1 @@
+Le délai d'appel et l'appel produisent un effet suspensif ; il s'ensuit que l'interruption du délai pour agir résultant de l'assignation subsiste après le jugement tant que celui-ci n'est pas devenu définitif.

@@ -1,0 +1,16 @@
+{
+  "dependencies": ["./Text2Stories/",
+                  "./Knowledge/"],
+  "graphs": {
+    "Expert": "Text2Stories/models/agents/expert.py:expert_builder",
+    "Elicitation": "./Text2Stories/models/teams/elicitation.py:elicitator_builder",
+    "Scheduling": "./Text2Stories/models/teams/scheduling.py:scheduler_builder",
+    "Validation": "./Text2Stories/models/teams/validation.py:validator_builder",
+    "Degradation": "./Text2Stories/models/teams/degradation.py:degradator_builder",
+    "Amigos": "./Text2Stories/models/teams/amigos.py:amigos_builder",
+    "Antagonist": "./Text2Stories/models/teams/antagonist.py:antagonist_builder",
+    "SequentialGen": "./Text2Stories/models/flows/sequential_generation.py:us_generator_builder",
+    "FunctionalGen": "./Text2Stories/models/flows/functional_generation.py:functional_generation_builder"
+  },
+  "env": ".env"
+}

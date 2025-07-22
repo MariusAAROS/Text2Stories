@@ -1,0 +1,1 @@
+Il résulte de l'article L. 133-21 du code monétaire et financier que si l'identifiant unique fourni par l'utilisateur du service de paiement est inexact, le prestataire de services de paiement n'est pas responsable de la mauvaise exécution de l'opération de paiement qui en est la conséquence

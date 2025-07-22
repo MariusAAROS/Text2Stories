@@ -1,0 +1,1 @@
+La validité d'un terme n'est pas affectée par le caractère potestatif de la condition alternative à ce terme.

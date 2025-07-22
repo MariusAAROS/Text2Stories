@@ -1,0 +1,1 @@
+Le désistement de l'appel principal, postérieur à l'appel incident, ne peut mettre fin à l'instance qu'après avoir été accepté par l'auteur de l'appel incident.

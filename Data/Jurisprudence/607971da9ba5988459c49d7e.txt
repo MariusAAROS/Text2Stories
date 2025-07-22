@@ -1,0 +1,1 @@
+La règle selon laquelle l'exception de nullité peut seulement jouer pour faire échec à la demande d'exécution d'un acte qui n'a pas encore été exécuté s'applique sans qu'il y ait lieu de distinguer entre nullité relative et nullité absolue

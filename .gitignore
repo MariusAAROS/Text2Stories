@@ -1,2 +1,9 @@
-README_NotAnon.md
-demo
+# Environment variables
+.venv
+.env
+.langgraph_api
+
+# Cache files
+**/__pycache__/
+
+# Bulky Data

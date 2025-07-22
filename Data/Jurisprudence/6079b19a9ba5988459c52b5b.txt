@@ -1,0 +1,1 @@
+La nullité d'une transaction peut être invoquée par l'une ou l'autre partie.

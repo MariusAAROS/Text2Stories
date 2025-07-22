@@ -1,0 +1,1 @@
+L'exclusion de l'erreur de droit comme cause de nullité de la transaction ne concerne que la règle applicable aux droits objet de la contestation qu'elle a pour but de terminer, et non les engagements souscrits pour garantir l'exécution de la transaction

@@ -1,0 +1,1 @@
+Le virement ne vaut paiement que lorsqu'il a été effectivement réalisé par l'inscription de son montant au compte du bénéficiaire.
