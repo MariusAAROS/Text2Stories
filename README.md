@@ -1,6 +1,6 @@
 # Text2Stories
 
-Public Complementary material for Text2Stories
+Public Complementary material & Model Implementation for Text2Stories
 
 ## Model's Purpose & Use Cases
 
@@ -10,7 +10,7 @@ Text2Stories has 2 modules, 3 identified use cases and 2 end-user.
 
 ## Model's Architecture
 
-![Text2Stories Architecture](images/Text2Stories.png)
+![Text2Stories Architecture](images/FullText2Stories.png)
 
 ## Tools and Libraries
 
