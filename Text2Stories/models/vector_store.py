@@ -23,9 +23,9 @@ text_splitter = RecursiveCharacterTextSplitter(
 docs = text_splitter.split_documents(directory)
 
 embedder = OllamaEmbeddings(
-    model="qwen2.5:3b"
+    model="llama3.2:1b"
 )
 
 vector_store = FAISS.from_documents(docs, embedder)
 
-vector_store.save_local(folder_path="Knowledge/CM")
+vector_store.save_local(folder_path="Knowledge/Code_Conso")
