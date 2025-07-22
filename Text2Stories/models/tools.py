@@ -17,7 +17,8 @@ def retriever(q: Annotated[str, "Query to compare with the vector store informat
     embedder = OllamaEmbeddings(
         model="llama3.2:1b"
     )
-    vector_store = FAISS.load_local(folder_path="./Knowledge/CM+Code_Conso/",
+    vector_store = FAISS.load_local(folder_path="./Knowledge/Code_Conso/",
+                                    index_name="code_consommation_index",
                                     embeddings=embedder,
                                     allow_dangerous_deserialization=True)
     
