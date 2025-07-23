@@ -115,6 +115,7 @@ We gratefully acknowledge the contributions of the following individuals:
 ```bash
 Text2Stories/
 │
+├── Ablation-Experiments/       # Ablation experiments displayed in the paper (LLM, LLM+CoT, RAG+CoT)
 ├── Data/                       # Use-Case-Specific Data for the RAG
 ├── Dataset/                    # Dataset used in the paper's experiments
 ├── demo/                       # Link to the demonstration video
