@@ -116,6 +116,7 @@ We gratefully acknowledge the contributions of the following individuals:
 Text2Stories/
 │
 ├── Data/                       # Use-Case-Specific Data for the RAG
+├── Dataset/                    # Dataset used in the paper's experiments
 ├── demo/                       # Link to the demonstration video
 ├── images/                     # Diagrams and visual assets
 ├── Knowledge/                  # Knowledge Base for the RAG (vectorized data)
