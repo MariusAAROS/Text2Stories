@@ -1,0 +1,2198 @@
+{
+    "llm": {
+        "epics": [
+            {
+                "epic": "Document Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to know which documents are required for the loan application so that I can prepare them in advance.",
+                        "acceptance_criteria": [
+                            "A list of required documents is provided to the user.",
+                            "The list is specific to the type of loan being applied for.",
+                            "The list is accessible before and during the application process."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP50_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to upload the required documents so that they can be reviewed with my loan application.",
+                        "acceptance_criteria": [
+                            "The user can upload documents through the application form.",
+                            "Uploaded documents are securely stored and associated with the user's application.",
+                            "The system accepts common document formats (e.g., PDF, JPEG)."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP50_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to check the status of my uploaded documents so that I can ensure all required documents are accepted.",
+                        "acceptance_criteria": [
+                            "The user can view the status of each uploaded document.",
+                            "The status indicates whether the document is accepted, rejected, or pending review.",
+                            "The status is updated in real-time as documents are reviewed."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP50_US2"
+                    }
+                ],
+                "id": "llm_EP50"
+            },
+            {
+                "epic": "Loan Application Confirmation",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to receive a confirmation email after submitting my loan application so that I have a record of my submission.",
+                        "acceptance_criteria": [
+                            "A confirmation email is sent to the user after submitting the loan application.",
+                            "The email includes a summary of the submitted application."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP37_US0"
+                    }
+                ],
+                "id": "llm_EP37"
+            },
+            {
+                "epic": "Loan Repayment Schedule Viewing",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to view the loan repayment schedule so that I can plan my finances accordingly.",
+                        "acceptance_criteria": [
+                            "The loan repayment schedule is displayed to the user.",
+                            "The schedule includes the due dates and amounts for each payment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP45_US0"
+                    }
+                ],
+                "id": "llm_EP45"
+            },
+            {
+                "epic": "Loan Application Submission",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to access a loan application form so that I can apply for a loan.",
+                        "acceptance_criteria": [
+                            "A loan application form is accessible to the user.",
+                            "The form includes fields for personal information, loan amount, loan purpose, and other relevant details."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP18_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to submit my loan application so that it can be reviewed.",
+                        "acceptance_criteria": [
+                            "The user can submit the loan application form.",
+                            "The system confirms the submission with a message.",
+                            "The submitted application is stored in the system for review."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP18_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to receive a confirmation email after submitting my loan application so that I have a record of my submission.",
+                        "acceptance_criteria": [
+                            "A confirmation email is sent to the user's email address after submitting the loan application.",
+                            "The email includes a confirmation message and a summary of the loan application details."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP18_US2"
+                    },
+                    {
+                        "user_story": "As a user, I want to check the status of my loan application so that I can stay informed about the progress.",
+                        "acceptance_criteria": [
+                            "The user can view the current status of their loan application.",
+                            "The status is updated in real-time as the application is processed."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP18_US3"
+                    },
+                    {
+                        "user_story": "As a user, I want to be notified when the status of my loan application changes so that I can take appropriate actions.",
+                        "acceptance_criteria": [
+                            "The user receives a notification (email, SMS, or in-app) when the status of their loan application changes.",
+                            "The notification includes the new status and any relevant updates."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP18_US4"
+                    }
+                ],
+                "id": "llm_EP18"
+            },
+            {
+                "epic": "Document Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to know which documents are required for the loan application so that I can prepare them in advance.",
+                        "acceptance_criteria": [
+                            "A list of required documents is provided to the user.",
+                            "The list is specific to the type of loan being applied for."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP32_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to upload the required documents so that they can be reviewed with my loan application.",
+                        "acceptance_criteria": [
+                            "The user can upload documents through the application.",
+                            "The uploaded documents are associated with the user's loan application."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP32_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to check the status of my uploaded documents so that I can ensure all required documents are accepted.",
+                        "acceptance_criteria": [
+                            "The user can view the status of each uploaded document.",
+                            "The status indicates whether the document has been accepted, rejected, or is pending review."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP32_US2"
+                    }
+                ],
+                "id": "llm_EP32"
+            },
+            {
+                "epic": "Loan Application Status Tracking",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to check the status of my loan application so that I can stay informed about the progress.",
+                        "acceptance_criteria": [
+                            "The user can view the current status of their loan application.",
+                            "The status is updated in real-time as the application is processed.",
+                            "The status page is accessible through the user's account."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP49_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to be notified when the status of my loan application changes so that I can take appropriate actions.",
+                        "acceptance_criteria": [
+                            "The user receives a notification when the status of their loan application changes.",
+                            "The notification is sent via email or in-app notification.",
+                            "The notification includes the new status and any relevant information."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP49_US1"
+                    }
+                ],
+                "id": "llm_EP49"
+            },
+            {
+                "epic": "View Loan Terms and Conditions",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to view the loan terms and conditions so that I can understand the details of the loan.",
+                        "acceptance_criteria": [
+                            "The loan terms and conditions are displayed to the user.",
+                            "The terms and conditions include interest rate, repayment period, late fees, etc."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP13_US0"
+                    }
+                ],
+                "id": "llm_EP13"
+            },
+            {
+                "epic": "Loan Application Submission",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to access a loan application form so that I can apply for a loan.",
+                        "acceptance_criteria": [
+                            "A loan application form is available.",
+                            "The form includes fields for personal information, loan amount, loan purpose, and other relevant details.",
+                            "The form is accessible through the user's account or a public link."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP48_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to submit my loan application so that it can be reviewed.",
+                        "acceptance_criteria": [
+                            "The loan application form can be submitted.",
+                            "A confirmation message is displayed after submission.",
+                            "Submitted applications are stored in the system for review."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP48_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to receive a confirmation email after submitting my loan application so that I have a record of my submission.",
+                        "acceptance_criteria": [
+                            "A confirmation email is sent to the user's registered email address.",
+                            "The email includes details of the submitted loan application.",
+                            "The email is sent immediately after submission."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP48_US2"
+                    }
+                ],
+                "id": "llm_EP48"
+            },
+            {
+                "epic": "Loan Repayment Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to view the loan repayment schedule so that I can plan my finances accordingly.",
+                        "acceptance_criteria": [
+                            "The loan repayment schedule is displayed to the user.",
+                            "The schedule includes the due dates and amounts for each payment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP34_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to set up automatic payments so that I can ensure timely loan repayments.",
+                        "acceptance_criteria": [
+                            "The user can set up automatic payments for their loan repayments.",
+                            "The system allows the user to specify the payment method and schedule."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP34_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to be notified before each loan repayment due date so that I can ensure I have sufficient funds.",
+                        "acceptance_criteria": [
+                            "The user receives a notification before each loan repayment due date.",
+                            "The notification includes the due date and the amount to be paid."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP34_US2"
+                    }
+                ],
+                "id": "llm_EP34"
+            },
+            {
+                "epic": "Loan Application Status Check",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to check the status of my loan application so that I can stay informed about the progress.",
+                        "acceptance_criteria": [
+                            "The current status of the loan application is displayed.",
+                            "The status includes stages such as 'Pending', 'Under Review', 'Approved', or 'Rejected'."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP8_US0"
+                    }
+                ],
+                "id": "llm_EP8"
+            },
+            {
+                "epic": "Document Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to know which documents are required for the loan application so that I can prepare them in advance.",
+                        "acceptance_criteria": [
+                            "The user can view a list of required documents for the loan application.",
+                            "The list includes documents such as ID, proof of address, and income statements."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP2_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to upload the required documents so that they can be reviewed with my loan application.",
+                        "acceptance_criteria": [
+                            "The user can upload the required documents.",
+                            "The system accepts common file formats such as PDF, JPG, and PNG.",
+                            "The system confirms the successful upload of each document."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP2_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to check the status of my uploaded documents so that I can ensure all required documents are accepted.",
+                        "acceptance_criteria": [
+                            "The user can view the status of each uploaded document.",
+                            "The status includes 'Pending', 'Accepted', 'Rejected'."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm_EP2_US2"
+                    }
+                ],
+                "id": "llm_EP2"
+            }
+        ]
+    },
+    "llm+CoT": {
+        "epics": [
+            {
+                "epic": "Loan Application Submission",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to submit a loan application so that I can request a loan.",
+                        "acceptance_criteria": [
+                            "The system should allow users to fill out and submit a loan application form.",
+                            "The system should validate the input data for completeness and accuracy.",
+                            "The system should confirm the submission of the loan application."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP23_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to save my loan application progress so that I can complete it later.",
+                        "acceptance_criteria": [
+                            "The system should allow users to save their progress at any point during the application process.",
+                            "The system should allow users to resume their application from the point where they left off.",
+                            "The system should securely store the saved application data."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP23_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to upload supporting documents with my loan application so that the lender can verify my information.",
+                        "acceptance_criteria": [
+                            "The system should allow users to upload supporting documents during the application process.",
+                            "The system should accept common file formats for uploaded documents.",
+                            "The system should securely store the uploaded documents."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "llm+CoT_EP23_US2"
+                    }
+                ],
+                "id": "llm+CoT_EP23"
+            },
+            {
+                "epic": "Digital Loan Agreement Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to generate and manage loan agreements digitally, so that I can facilitate the loan closing process.",
+                        "acceptance_criteria": [
+                            "The system generates a digital loan agreement populated with the approved loan details.",
+                            "The system allows the loan officer to review and edit the loan agreement if necessary.",
+                            "The system enables the borrower to e-sign the loan agreement."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP45_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP45"
+            },
+            {
+                "epic": "Document Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to manage the collection of supporting documents so that we can verify the information provided in the loan application.",
+                        "acceptance_criteria": [
+                            "Supporting documents are collected and managed securely.",
+                            "Document collection progress is tracked and communicated to the applicant."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "llm+CoT_EP16_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP16"
+            },
+            {
+                "epic": "Loan Application Tracking",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to track the status of my loan application in real-time so that I am always informed about the progress.",
+                        "acceptance_criteria": [
+                            "The system should provide real-time updates on the loan application status.",
+                            "The system should send notifications to the user for any changes in the application status.",
+                            "The system should display a timeline of all status changes and actions taken on the application.",
+                            "The system should allow users to view the expected timeline for each stage of the loan application process."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP51_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP51"
+            },
+            {
+                "epic": "Automated Loan Application Processing",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want the system to automatically process loan applications based on predefined criteria, so that I can expedite the loan approval process.",
+                        "acceptance_criteria": [
+                            "The system applies predefined eligibility criteria to the submitted loan application.",
+                            "The system automatically approves or rejects the application based on the evaluation results.",
+                            "The system notifies the loan officer and the applicant of the decision via email or in-app notification."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP44_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP44"
+            },
+            {
+                "epic": "Loan Documentation",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to prepare and manage loan documents so that we can formalize the loan agreement and maintain proper records.",
+                        "acceptance_criteria": [
+                            "Loan documents are prepared and managed securely.",
+                            "Loan agreement is signed by both parties."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "llm+CoT_EP19_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP19"
+            },
+            {
+                "epic": "Loan Disbursement",
+                "user_stories": [
+                    {
+                        "user_story": "As an approved applicant, I want to receive the loan amount so that I can use the funds.",
+                        "acceptance_criteria": [
+                            "The system initiates the loan disbursement process upon approval.",
+                            "The applicant can view the disbursement status in their dashboard.",
+                            "The system updates the loan account with the disbursed amount.",
+                            "The applicant receives a confirmation of the disbursement."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP4_US0"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to verify the applicant's bank details before disbursement so that the funds are transferred to the correct account.",
+                        "acceptance_criteria": [
+                            "The loan officer can access the applicant's bank details.",
+                            "The loan officer can verify the bank details with the applicant.",
+                            "The system updates the verification status.",
+                            "The loan officer can proceed with the disbursement upon successful verification."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP4_US1"
+                    }
+                ],
+                "id": "llm+CoT_EP4"
+            },
+            {
+                "epic": "Loan Application Review",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to view pending loan applications so that I can review them.",
+                        "acceptance_criteria": [
+                            "The loan officer can access the list of pending loan applications.",
+                            "The loan officer can filter and sort the list based on various criteria.",
+                            "The loan officer can select a loan application to view its details."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP2_US0"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to approve or reject a loan application so that I can make a decision on the application.",
+                        "acceptance_criteria": [
+                            "The loan officer can access the loan application details.",
+                            "The loan officer can enter comments for the approval or rejection.",
+                            "The loan officer can select to approve or reject the application.",
+                            "The system updates the application status.",
+                            "The system notifies the applicant of the decision."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP2_US1"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to request additional information from the applicant so that I can make an informed decision.",
+                        "acceptance_criteria": [
+                            "The loan officer can access the loan application details.",
+                            "The loan officer can enter the request for additional information.",
+                            "The system sends a notification to the applicant with the request.",
+                            "The applicant can view the request and upload the additional information."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP2_US2"
+                    }
+                ],
+                "id": "llm+CoT_EP2"
+            },
+            {
+                "epic": "Creditworthiness Evaluation",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want the system to automatically evaluate the user's creditworthiness so that loan decisions can be made quickly and accurately.",
+                        "acceptance_criteria": [
+                            "The system should automatically evaluate the user's credit score based on the provided information.",
+                            "The system should generate a credit report summarizing the evaluation.",
+                            "The system should provide a recommendation for loan approval or rejection based on the creditworthiness evaluation.",
+                            "The system should allow loan officers to review and override the automated decision if necessary."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP49_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP49"
+            },
+            {
+                "epic": "Data Security and Compliance",
+                "user_stories": [
+                    {
+                        "user_story": "As a system administrator, I want to ensure that all user data and documents are securely stored so that user information is protected from unauthorized access.",
+                        "acceptance_criteria": [
+                            "The system should ensure that all user data is encrypted and stored securely.",
+                            "The system should implement access controls to restrict unauthorized access to user data.",
+                            "The system should regularly back up user data to prevent data loss.",
+                            "The system should comply with relevant data protection regulations and standards."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": false,
+                        "testable": true,
+                        "id": "llm+CoT_EP52_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP52"
+            },
+            {
+                "epic": "Fund Disbursement",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to facilitate the disbursement of funds so that the applicant can receive the loan amount in a timely manner.",
+                        "acceptance_criteria": [
+                            "Funds are disbursed to the applicant in a timely manner.",
+                            "Disbursement process is documented for audit purposes."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "llm+CoT_EP20_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP20"
+            },
+            {
+                "epic": "Security and Compliance",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want my personal and financial data to be secure so that I can trust the loan application process.",
+                        "acceptance_criteria": [
+                            "The system uses encryption to protect user data.",
+                            "The system has access controls to restrict data access to authorized users.",
+                            "The system logs user activities for auditing purposes.",
+                            "The system complies with relevant data protection regulations."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP6_US0"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to ensure that the loan application process complies with regulations so that the process is legal and fair.",
+                        "acceptance_criteria": [
+                            "The system implements regulatory requirements for loan applications.",
+                            "The system provides compliance reports for auditing purposes.",
+                            "The loan officer can view and manage compliance-related tasks.",
+                            "The system notifies the loan officer of any compliance issues."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP6_US1"
+                    }
+                ],
+                "id": "llm+CoT_EP6"
+            },
+            {
+                "epic": "User Account Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to create an account and log in securely so that my personal information is protected and I can access my loan application status.",
+                        "acceptance_criteria": [
+                            "The system should allow users to create an account using their email and a password that meets the security requirements.",
+                            "The system should send a verification email to confirm the user's email address.",
+                            "The system should allow users to log in using their email and password.",
+                            "The system should provide an option to reset the password if forgotten.",
+                            "The system should encrypt and securely store user passwords to protect personal information.",
+                            "The system should display the loan application status upon successful login."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP47_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP47"
+            },
+            {
+                "epic": "Applicant Information Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to collect and store applicant's personal information so that we can identify and contact the applicant throughout the loan process.",
+                        "acceptance_criteria": [
+                            "Personal information is collected and stored securely.",
+                            "Applicant's contact information is accurate and up-to-date."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "llm+CoT_EP13_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP13"
+            },
+            {
+                "epic": "Financial Assessment",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to gather and verify the applicant's employment and income information so that we can assess the applicant's ability to repay the loan.",
+                        "acceptance_criteria": [
+                            "The system should allow loan officers to input and verify the applicant's employment details such as employer name, job title, and employment duration.",
+                            "The system should enable loan officers to input and verify the applicant's income details, including income type (e.g., salary, self-employment), amount, and frequency.",
+                            "The system should document the verification process for each piece of employment and income information, including the method of verification (e.g., pay stubs, tax returns) and the date of verification.",
+                            "The system should store the documented verification process for audit purposes, allowing it to be retrieved and reviewed as needed.",
+                            "The system should provide real-time feedback to the loan officer if the entered employment or income information does not meet the required criteria (e.g., minimum income threshold)."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP14_US0"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to document the applicant's assets so that we can consider additional factors that may impact the applicant's ability to repay the loan.",
+                        "acceptance_criteria": [
+                            "Applicant's assets are documented accurately.",
+                            "Asset verification is completed when necessary."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP14_US1"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to record the applicant's liabilities so that we can evaluate the applicant's current debt level and its impact on their ability to repay a new loan.",
+                        "acceptance_criteria": [
+                            "Applicant's liabilities are recorded accurately.",
+                            "Liability verification is completed when necessary."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP14_US2"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to review the applicant's credit history so that we can assess their past behavior in repaying debts and managing credit.",
+                        "acceptance_criteria": [
+                            "Credit history is reviewed and documented.",
+                            "Credit score is calculated based on the credit history."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP14_US3"
+                    }
+                ],
+                "id": "llm+CoT_EP14"
+            },
+            {
+                "epic": "Loan Repayment Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to view and manage my loan repayment schedule, so that I can stay on top of my loan payments.",
+                        "acceptance_criteria": [
+                            "The system displays the loan repayment schedule with due dates and amounts.",
+                            "The system allows the borrower to view their payment history and upcoming payments.",
+                            "The system sends reminders to the borrower for upcoming payments via email or in-app notification."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "llm+CoT_EP46_US0"
+                    }
+                ],
+                "id": "llm+CoT_EP46"
+            }
+        ]
+    },
+    "rag+CoT": {
+        "epics": [
+            {
+                "epic": "Borrower Dashboard",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to view my loan details and status so that I can stay informed about my loan.",
+                        "acceptance_criteria": [
+                            "The system should display an overview of the borrower's loan status.",
+                            "The system should allow borrowers to view their loan details, including amount borrowed, interest rate, and repayment schedule.",
+                            "The system should allow borrowers to download their loan documents."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP49_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to manage my loan account so that I can keep my information up-to-date and get help if needed.",
+                        "acceptance_criteria": [
+                            "The system should allow borrowers to update their personal information.",
+                            "The system should allow borrowers to view their repayment history.",
+                            "The system should allow borrowers to contact customer support for assistance."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP49_US1"
+                    }
+                ],
+                "id": "rag+CoT_EP49"
+            },
+            {
+                "epic": "Employment and Income Verification",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to verify the employment and income of the applicant so that I can assess their loan eligibility.",
+                        "acceptance_criteria": [
+                            "The system should allow loan officers to request employment and income verification documents from the applicant.",
+                            "The system should display the uploaded verification documents.",
+                            "The system should allow loan officers to verify the authenticity of the documents."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP8_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP8"
+            },
+            {
+                "epic": "Creditworthiness Re-evaluation",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want my creditworthiness to be re-evaluated periodically so that I can benefit from improved loan terms if my financial situation changes.",
+                        "acceptance_criteria": [
+                            "The system re-evaluates the borrower's creditworthiness based on updated financial information.",
+                            "The borrower is notified of the re-evaluation results and any changes to their loan terms."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP13_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want the option to request a manual review of my creditworthiness if I believe the automated assessment does not accurately reflect my financial situation.",
+                        "acceptance_criteria": [
+                            "The system provides an option for borrowers to request a manual review of their creditworthiness if they believe the automated assessment is incorrect.",
+                            "The borrower receives a notification confirming that their request for a manual review has been submitted.",
+                            "The system allows loan officers to access and review the borrower's manual review request.",
+                            "The loan officer can approve or reject the manual review request based on the borrower's financial situation.",
+                            "The borrower is notified of the outcome of the manual review, including any changes to their loan terms or creditworthiness assessment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP13_US1"
+                    }
+                ],
+                "id": "rag+CoT_EP13"
+            },
+            {
+                "epic": "Mortgage-Guaranteed Loan Application",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to apply for a mortgage-guaranteed loan so that I can finance my home purchase.",
+                        "acceptance_criteria": [
+                            "The system should provide a specific application form for mortgage-guaranteed loans.",
+                            "The system should allow users to submit the application and upload necessary documents.",
+                            "The system should confirm the submission of the mortgage-guaranteed loan application."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP6_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP6"
+            },
+            {
+                "epic": "Loan Insurance Application Status Tracking",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to track the status of my loan insurance application so that I can stay informed about the progress.",
+                        "acceptance_criteria": [
+                            "The system should display the current status of the loan insurance application.",
+                            "The system should send notifications to the user when the status changes.",
+                            "The system should provide a history of status changes."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP11_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP11"
+            },
+            {
+                "epic": "Loan Application Submission",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to submit a loan application so that I can request a loan.",
+                        "acceptance_criteria": [
+                            "The system should allow users to submit a loan application.",
+                            "The system should validate the loan application for completeness and accuracy.",
+                            "The system should notify the user of the submission status."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP45_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to upload required documents so that my loan application can be processed.",
+                        "acceptance_criteria": [
+                            "The system should allow users to upload required documents.",
+                            "The system should validate the uploaded documents for completeness and accuracy.",
+                            "The system should notify the user of the document upload status."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP45_US1"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to view the status of my loan application so that I can stay informed about the progress.",
+                        "acceptance_criteria": [
+                            "The system should allow users to view the status of their loan application.",
+                            "The system should notify the user of any changes in the loan application status."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP45_US2"
+                    }
+                ],
+                "id": "rag+CoT_EP45"
+            },
+            {
+                "epic": "Document Upload and Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to upload and manage the required documents for my loan application so that I can complete the application process.",
+                        "acceptance_criteria": [
+                            "The system should display a list of required documents for the loan application.",
+                            "The system should allow users to upload documents in supported formats (PDF, JPG, PNG).",
+                            "The system should allow users to view and manage their uploaded documents.",
+                            "The system should allow users to delete uploaded documents.",
+                            "The system should allow users to replace uploaded documents with new ones."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP32_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP32"
+            },
+            {
+                "epic": "Home Renovation Loan Application",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to apply for a home renovation loan so that I can finance my home renovation project.",
+                        "acceptance_criteria": [
+                            "The system should provide a specific application form for home renovation loans.",
+                            "The system should allow users to submit the application and upload necessary documents.",
+                            "The system should confirm the submission of the home renovation loan application."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "rag+CoT_EP4_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP4"
+            },
+            {
+                "epic": "Loan Agreement Signing",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to sign the loan agreement so that I can finalize the loan process.",
+                        "acceptance_criteria": [
+                            "The system should display the loan agreement details for the user to review.",
+                            "The system should allow the user to sign the loan agreement electronically.",
+                            "The system should confirm the successful signing of the loan agreement."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP9_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP9"
+            },
+            {
+                "epic": "Security and Privacy",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want my personal information to be encrypted so that it is protected from unauthorized access.",
+                        "acceptance_criteria": [
+                            "All personal data must be encrypted at rest and in transit.",
+                            "Access to personal data should be restricted to authorized personnel only.",
+                            "Implement multi-factor authentication for user accounts."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP18_US0"
+                    },
+                    {
+                        "user_story": "As a user, I want to be able to set strong passwords so that my account is secure.",
+                        "acceptance_criteria": [
+                            "Passwords must meet complexity requirements (e.g., length, special characters).",
+                            "Provide password strength meter during password creation.",
+                            "Implement password expiration and prevent reuse of previous passwords."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP18_US1"
+                    },
+                    {
+                        "user_story": "As a user, I want to be notified of any suspicious activity on my account so that I can take immediate action.",
+                        "acceptance_criteria": [
+                            "Implement monitoring for unusual account activity.",
+                            "Send real-time alerts for suspicious login attempts or transactions.",
+                            "Provide options for users to report suspicious activity."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP18_US2"
+                    }
+                ],
+                "id": "rag+CoT_EP18"
+            },
+            {
+                "epic": "Loan Repayment Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to view and manage my loan repayments so that I can stay on top of my financial obligations.",
+                        "acceptance_criteria": [
+                            "The system should allow borrowers to view their repayment schedule.",
+                            "The system should notify borrowers of upcoming repayments.",
+                            "The system should allow borrowers to make repayments online."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP48_US0"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to monitor and manage loan repayments so that I can ensure timely repayments.",
+                        "acceptance_criteria": [
+                            "The system should allow loan officers to view the repayment status of all loans.",
+                            "The system should notify loan officers of any missed repayments.",
+                            "The system should allow loan officers to send reminders to borrowers about upcoming repayments."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP48_US1"
+                    }
+                ],
+                "id": "rag+CoT_EP48"
+            },
+            {
+                "epic": "Loan Approval Process",
+                "user_stories": [
+                    {
+                        "user_story": "As a loan officer, I want to review and approve or reject loan applications so that borrowers can be notified of the decision.",
+                        "acceptance_criteria": [
+                            "The system should allow loan officers to view pending loan applications.",
+                            "The system should allow loan officers to approve or reject loan applications.",
+                            "The system should notify the borrower of the loan application decision."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP46_US0"
+                    },
+                    {
+                        "user_story": "As a loan officer, I want to request additional information from the borrower so that I can make an informed decision.",
+                        "acceptance_criteria": [
+                            "The system should allow loan officers to request additional information from the borrower.",
+                            "The system should notify the borrower of the request for additional information.",
+                            "The system should allow the borrower to submit the requested information."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP46_US1"
+                    }
+                ],
+                "id": "rag+CoT_EP46"
+            },
+            {
+                "epic": "Transparent Credit Information",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to be able to view my credit score and history so that I can understand my creditworthiness.",
+                        "acceptance_criteria": [
+                            "The system should display the borrower's credit score from a reputable credit bureau.",
+                            "The system should provide a history of the borrower's credit accounts and payment history.",
+                            "The system should explain how the credit score is calculated."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP30_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to be able to view the interest rates and fees associated with my loan so that I can understand the total cost of borrowing.",
+                        "acceptance_criteria": [
+                            "The system should display the interest rate and any fees associated with the loan.",
+                            "The system should provide a breakdown of how the interest is calculated.",
+                            "The system should display the total repayment amount over the life of the loan."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP30_US1"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to receive notifications about changes to my credit score or loan terms so that I can stay informed about my financial situation.",
+                        "acceptance_criteria": [
+                            "The system should send notifications to the borrower when there are changes to their credit score.",
+                            "The system should send notifications to the borrower when there are changes to their loan terms.",
+                            "The system should allow the borrower to choose their preferred notification method (e.g., email, SMS)."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP30_US2"
+                    }
+                ],
+                "id": "rag+CoT_EP30"
+            },
+            {
+                "epic": "User Registration",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to register with the loan granting application so that I can apply for a loan.",
+                        "acceptance_criteria": [
+                            "The user is successfully registered with a unique identifier.",
+                            "The user's personal information is securely stored in the system."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP40_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP40"
+            },
+            {
+                "epic": "Energy-Efficient Home Improvement Loan Application",
+                "user_stories": [
+                    {
+                        "user_story": "As a user, I want to apply for an energy-efficient home improvement loan so that I can finance energy-efficient upgrades to my home.",
+                        "acceptance_criteria": [
+                            "The system should provide a specific application form for energy-efficient home improvement loans.",
+                            "The system should allow users to submit the application and upload necessary documents.",
+                            "The system should confirm the submission of the energy-efficient home improvement loan application."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "rag+CoT_EP5_US0"
+                    }
+                ],
+                "id": "rag+CoT_EP5"
+            }
+        ]
+    },
+    "T2S_Gen": {
+        "epics": [
+            {
+                "epic": "Failure Management",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to be informed of the terms and obligations of the loan before receiving an offer, in order to make an informed decision.",
+                        "acceptance_criteria": [
+                            "The loan conditions must be expressed as an annual percentage rate, total amount in euros over eight years and total loan duration, and amount per payment period.",
+                            "It must be specified whether the amount is added to the loan repayment due date.",
+                            "This information must be provided simultaneously with any document containing digital elements about insurance."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP3_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to be informed of the terms of credit use in advertising, in order to ensure transparency and legal compliance.",
+                        "acceptance_criteria": [
+                            "Advertising must inform the consumer of the terms of use of the credit."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP3_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to manage benefits in kind in accordance with regulations, in order to avoid sanctions.",
+                        "acceptance_criteria": [
+                            "The value of benefits in kind offered during a credit operation must not exceed a threshold set by ministerial decree."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP3_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to be able to increase the interest rate in the event of borrower default within legal limits, in order to manage the risks associated with defaults.",
+                        "acceptance_criteria": [
+                            "In the event of borrower default, the lender may increase the interest rate within the limits set by decree until the borrower resumes normal repayment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP3_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit, in order to avoid committing to multiple loans without a guarantee of their approval.",
+                        "acceptance_criteria": [
+                            "When the borrower uses several loans for the same transaction, each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP3_US4"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that autonomous guarantees are not taken out for certain types of credit, in order to comply with regulations.",
+                        "acceptance_criteria": [
+                            "Autonomous guarantees cannot be taken out for loans falling under Chapters II and III of the relevant title."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Gen_EP3_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want a precise and transparent simulation of the total cost of the loan, in order to understand the financial impact of the loan.",
+                        "acceptance_criteria": [
+                            "Clearly indicate that the rate will be determined after a review of the borrower's situation.",
+                            "The total cost of credit must not include mandatory insurance (death coverage, total and irreversible loss of autonomy, incapacity for work, and permanent disability)."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP3_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want a flexible financing solution for the acquisition of real estate, in order to avoid immediately mobilizing a large sum.",
+                        "acceptance_criteria": [
+                            "Allow the financing of the acquisition of real estate without immediately mobilizing a large sum."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Gen_EP3_US7"
+                    }
+                ],
+                "id": "T2S_Gen_EP3"
+            },
+            {
+                "epic": "Advertising and Information",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to see the annual effective rate, total amount in euros over eight years, total loan duration, and amount per payment period so that I can understand the loan's conditions and obligations before an offer is made.",
+                        "acceptance_criteria": [
+                            "The system should display the annual effective rate.",
+                            "The system should display the total amount in euros over eight years.",
+                            "The system should display the total loan duration.",
+                            "The system should display the amount per payment period.",
+                            "The system should specify if the amount is added to the loan repayment installment."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to receive information on the remaining capital to be repaid at least once a year so that I can stay informed about my loan status.",
+                        "acceptance_criteria": [
+                            "The system should send a notification or report to the borrower at least once a year with the remaining capital to be repaid."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of in-kind premiums offered during a credit operation does not exceed the threshold set by the ministerial decree so that I can comply with regulations.",
+                        "acceptance_criteria": [
+                            "The system should validate that the value of in-kind premiums does not exceed the threshold set by the ministerial decree before finalizing the credit operation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to manage the interest rate within legal limits in case of borrower default so that I can mitigate risks associated with defaults.",
+                        "acceptance_criteria": [
+                            "The system should allow the lender to increase the interest rate within the limits set by decree in case of borrower default.",
+                            "The system should revert the interest rate to normal once the borrower resumes normal repayment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit so that I do not commit to multiple loans without guarantee of their approval.",
+                        "acceptance_criteria": [
+                            "The system should apply the suspensive condition to each loan if the amount exceeds 10% of the total credit when the borrower uses multiple loans for the same operation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US4"
+                    },
+                    {
+                        "user_story": "As a borrower, I want the system to display an error message if I attempt to subscribe to an autonomous guarantee for credits under Chapter II so that I am aware of the regulation.",
+                        "acceptance_criteria": [
+                            "The system should identify credits under Chapter II.",
+                            "The system should display an error message when an attempt is made to subscribe to an autonomous guarantee for these credits.",
+                            "The error message should specify that the action is not allowed due to regulatory compliance."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to see a clear indication that the rate will be defined after studying my situation so that I can understand the credit simulation process.",
+                        "acceptance_criteria": [
+                            "The system should clearly indicate that the rate will be defined after studying the borrower's situation during the credit simulation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that the total cost of the credit does not include mandatory insurance so that I can understand the precise cost of the credit.",
+                        "acceptance_criteria": [
+                            "The system should exclude mandatory insurance (death guarantee, total and irreversible loss of autonomy, work incapacity, and permanent disability) from the total cost of the credit during the credit simulation."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US7"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to finance the acquisition of real estate without immediately mobilizing a large sum so that I can have a flexible financing solution.",
+                        "acceptance_criteria": [
+                            "The system should provide an option to finance the acquisition of real estate without requiring the immediate mobilization of a large sum."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP1_US8"
+                    }
+                ],
+                "id": "T2S_Gen_EP1"
+            },
+            {
+                "epic": "Management of Bonuses and Benefits",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to see the annual percentage rate, the total amount in euros over eight years, the total duration of the loan, and the amount per payment period in order to fully understand the terms and obligations of the loan before an offer is made.",
+                        "acceptance_criteria": [
+                            "The annual percentage rate must be clearly indicated.",
+                            "The total amount in euros over eight years must be specified.",
+                            "The total duration of the loan must be specified.",
+                            "The amount per payment period must be indicated.",
+                            "It must be specified whether the amount is added to the loan repayment due date."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to receive information on the remaining principal to be repaid at least once a year in order to track the progress of my loan.",
+                        "acceptance_criteria": [
+                            "The information must be provided at least once a year.",
+                            "The remaining principal to be repaid must be clearly indicated."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Gen_EP2_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of benefits in kind offered during a credit operation does not exceed the threshold set by the ministerial decree in order to remain compliant with regulations.",
+                        "acceptance_criteria": [
+                            "The value of benefits in kind must be checked against the threshold set by the ministerial decree.",
+                            "A warning must be generated if the value of benefits in kind exceeds the threshold."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to be able to increase the interest rate in the event of borrower default within the limits set by the decree until the borrower resumes normal repayment, in order to manage the risks associated with borrower defaults.",
+                        "acceptance_criteria": [
+                            "The interest rate may be increased in the event of borrower default.",
+                            "The increase in the interest rate must comply with the limits set by the decree.",
+                            "The interest rate must return to normal once the borrower resumes normal repayment."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit when I use multiple loans for the same transaction, so that I do not commit to multiple loans without a guarantee of their approval.",
+                        "acceptance_criteria": [
+                            "Each loan must be subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit.",
+                            "The borrower must not be able to enter into multiple loans without assurance of their approval."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US4"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that autonomous guarantees cannot be subscribed for loans falling under Chapters II and III of the relevant title in order to remain compliant with the regulations.",
+                        "acceptance_criteria": [
+                            "Autonomous guarantees must not be able to be taken out for loans falling under Chapters II and III of the relevant title.",
+                            "A warning must be generated if an independent guarantee is taken out for a loan falling under Chapters II and III of the relevant title."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want it to be clearly stated that the rate will be set after the assessment of my situation in order to understand that the credit simulation is not a final offer.",
+                        "acceptance_criteria": [
+                            "It must be clearly stated that the rate will be determined after the borrower's situation has been reviewed.",
+                            "The credit simulation should not be presented as a final offer."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that the total cost of the credit does not include mandatory insurance so that I can fully understand the cost of the credit.",
+                        "acceptance_criteria": [
+                            "The total cost of credit must not include mandatory insurance (death coverage, total and irreversible loss of autonomy, incapacity for work, and permanent disability).",
+                            "Mandatory insurance must be clearly separated from the total cost of the credit."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US7"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to be able to finance the acquisition of a property without immediately mobilizing a large sum in order to benefit from a flexible financing solution.",
+                        "acceptance_criteria": [
+                            "The borrower must be able to finance the acquisition of a property without immediately mobilizing a large sum.",
+                            "The financing solution must be flexible and adapted to the borrower's needs."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": false,
+                        "testable": true,
+                        "id": "T2S_Gen_EP2_US8"
+                    }
+                ],
+                "id": "T2S_Gen_EP2"
+            }
+        ]
+    },
+    "T2S_Deg": {
+        "epics": [
+            {
+                "epic": "Guarantees",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to see the pre-contractual information expressed in various formats, including the annual effective rate, total amount in euros over an unspecified period, and the total loan duration so that I can understand the loan's conditions and obligations before an offer is made.",
+                        "acceptance_criteria": [
+                            "The pre-contractual information should be displayed in the annual effective rate.",
+                            "The total amount should be shown in euros over an unspecified period.",
+                            "The total loan duration should be clearly stated.",
+                            "The amount per payment period should be specified.",
+                            "It should be indicated if the amount is added to the loan repayment installment.",
+                            "The information should be provided simultaneously with any document containing numerical elements on insurance.",
+                            "The format of the pre-contractual information may vary and should be adaptable to different loan types and durations."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Deg_EP5_US0"
+                    },
+                    {
+                        "user_story": "As a consumer, I want to be informed of the credit usage terms in advertising and receive periodic updates on the remaining capital to be repaid, so that I can make an informed decision about the loan application and monitor my loan status.",
+                        "acceptance_criteria": [
+                            "Advertising should clearly state the credit usage terms.",
+                            "The borrower should be provided with information on the remaining capital to be repaid at least once a year.",
+                            "The system should allow the borrower to customize the frequency of updates on the remaining capital (e.g., monthly, quarterly, annually).",
+                            "The borrower should have the option to receive updates through various channels (e.g., email, SMS, in-app notifications)."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Deg_EP5_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of in-kind premiums offered during a credit operation does not exceed the threshold set by the ministerial decree, taking into account various external factors and potential future changes in regulations, so that I can comply with regulations and mitigate risks.",
+                        "acceptance_criteria": [
+                            "The system should validate that the value of in-kind premiums does not exceed the threshold set by the ministerial decree.",
+                            "The system should consider various external factors that may influence the value of in-kind premiums.",
+                            "The system should be adaptable to potential future changes in regulations.",
+                            "The system should provide a risk assessment report based on the compliance with the ministerial decree."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP5_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to be able to increase the interest rate within limits set by decree in case of borrower default so that I can manage risks associated with borrower defaults within legal limits.",
+                        "acceptance_criteria": [
+                            "The system should allow the lender to increase the interest rate within the limits set by decree in case of borrower default.",
+                            "The conditions under which the interest rate should revert to normal are not specified and need further clarification."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP5_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit, and I want to be able to adjust the threshold percentage and receive detailed reports on the status of all loans so that I do not commit to multiple loans without guarantee of their approval and have full transparency.",
+                        "acceptance_criteria": [
+                            "The system should apply the suspensive condition to each loan if the amount exceeds a configurable percentage of the total credit.",
+                            "The borrower should be notified of the suspensive condition status.",
+                            "The system should generate detailed reports on the status of all loans, including approval status and threshold percentage.",
+                            "The borrower should be able to adjust the threshold percentage through a user interface."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": false,
+                        "testable": true,
+                        "id": "T2S_Deg_EP5_US4"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that autonomous guarantees are not subscribed to for credits under Chapters II and III of the relevant title, and also verify that all related documentation is compliant with the latest regulatory updates, so that I can comply with regulations and avoid any legal issues.",
+                        "acceptance_criteria": [
+                            "The system should prevent the subscription of autonomous guarantees for credits under Chapters II and III of the relevant title.",
+                            "The system should verify that all related documentation is compliant with the latest regulatory updates.",
+                            "The system should generate a compliance report detailing the status of all credits and their associated guarantees.",
+                            "The system should notify the borrower if any non-compliance is detected."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP5_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to see some indication that the rate might be defined after studying my situation in the credit simulation so that I can have a rough idea of the total cost of the credit.",
+                        "acceptance_criteria": [
+                            "The credit simulation should indicate that the rate might be defined after studying the borrower's situation.",
+                            "The total cost of the credit should generally not include mandatory insurance (death guarantee, total and irreversible loss of autonomy, work incapacity, and permanent disability), but this can vary based on the borrower's situation."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP5_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to finance the acquisition of real estate without immediately mobilizing a large sum so that I can have a flexible financing solution.",
+                        "acceptance_criteria": [
+                            "The system should offer at least two flexible financing options, such as a low down payment plan and a deferred payment plan.",
+                            "The system should provide a clear and straightforward application process for these financing options.",
+                            "The system should display the expected outcomes, including the total cost and repayment terms, for each financing option."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Deg_EP5_US7"
+                    }
+                ],
+                "id": "T2S_Deg_EP5"
+            },
+            {
+                "epic": "Suspensive Conditions",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to receive pre-contractual information expressed in an annual effective rate, total amount in euros over a variable period, and the total loan duration so that I am informed of the loan's conditions and obligations before an offer is made. However, the exact format and details of the information may vary based on the lender's discretion.",
+                        "acceptance_criteria": [
+                            "The pre-contractual information must be expressed in an annual effective rate.",
+                            "The total amount must be shown in euros over a variable period, which can be adjusted by the lender.",
+                            "The total loan duration must be specified, but the format can vary.",
+                            "The amount per payment period must be clearly stated, but the frequency and details can be adjusted.",
+                            "It must be specified if the amount is added to the loan repayment installment, but the method of specification can vary."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to be informed of the credit usage terms through various advertising channels and periodic updates so that I can make an informed decision about the loan application and understand the long-term implications of my loan.",
+                        "acceptance_criteria": [
+                            "Advertising must inform the consumer of the credit usage terms through multiple channels such as email, SMS, and physical mail.",
+                            "The borrower must be provided with information on the remaining capital to be repaid at least once a year, with additional updates based on market conditions and regulatory changes.",
+                            "The advertising content should be reviewed and approved by multiple stakeholders, including legal and compliance teams.",
+                            "The borrower should receive personalized recommendations based on their credit history and current financial situation."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of in-kind premiums and any additional benefits offered during a credit operation do not exceed the threshold set by the ministerial decree, and also monitor the compliance of all related financial products so that I comply with regulations and maintain transparency",
+                        "acceptance_criteria": [
+                            "The value of in-kind premiums and any additional benefits must not exceed the threshold set by the ministerial decree.",
+                            "The system should provide a report on the compliance status of all related financial products.",
+                            "The system should alert the lender if any financial product exceeds the threshold."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to be able to adjust the interest rate and other loan terms within limits set by decree and additional internal policies in case of borrower default, so that I can manage risks associated with borrower defaults within legal limits and internal guidelines.",
+                        "acceptance_criteria": [
+                            "The interest rate adjustment must be within the limits set by decree and additional internal policies.",
+                            "The adjusted interest rate must be applied until the borrower resumes normal repayment or until further internal review.",
+                            "The adjustment process must include a review by multiple stakeholders, including legal and compliance teams.",
+                            "The system must log all adjustments and reviews for audit purposes."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want each loan to be subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit when using multiple loans for the same operation, taking into account various external factors such as market conditions, regulatory changes, and lender policies, so that I do not commit to multiple loans without guarantee of their approval.",
+                        "acceptance_criteria": [
+                            "Each loan must be subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit.",
+                            "The system should consider various external factors such as market conditions, regulatory changes, and lender policies.",
+                            "The approval process should be flexible and adaptable to changes in external factors.",
+                            "The borrower should be notified of any changes in the approval process due to external factors."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US4"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that autonomous guarantees cannot be subscribed to for credits under Chapters II and III of the relevant title, and I want to be notified of any changes in regulations related to these guarantees, so that I comply with regulations and stay informed.",
+                        "acceptance_criteria": [
+                            "Autonomous guarantees must not be subscribed to for credits under Chapters II and III of the relevant title.",
+                            "The system should notify the borrower of any changes in regulations related to autonomous guarantees.",
+                            "The notification should be sent via email and in-app notification.",
+                            "The notification should include a summary of the changes and a link to the detailed regulations."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": false,
+                        "estimable": true,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want a basic simulation of the total cost of the credit that does not necessarily need to be precise or transparent, and it should mention that the rate will be defined later, so that I have a rough idea of the cost.",
+                        "acceptance_criteria": [
+                            "The simulation should mention that the rate will be determined after evaluating the borrower's situation.",
+                            "The total cost of the credit estimate can be a rough approximation and does not need to exclude mandatory insurance costs."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": false,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Deg_EP4_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to finance the acquisition of real estate without immediately mobilizing a large sum, using a predefined, non-flexible financing solution that may or may not be suitable for my specific needs.",
+                        "acceptance_criteria": [
+                            "The financing solution must allow the acquisition of real estate without immediately mobilizing a large sum.",
+                            "The financing solution should be predefined and not customizable to individual borrower needs.",
+                            "The success of the financing solution will be determined by the lender without clear, measurable criteria."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP4_US7"
+                    }
+                ],
+                "id": "T2S_Deg_EP4"
+            },
+            {
+                "epic": "Management of Bonuses and Benefits",
+                "user_stories": [
+                    {
+                        "user_story": "As a borrower, I want to see the global effective annual rate, the total amount in euros over eight years, the total loan duration, the amount per payment period, as well as a simulation of early repayment and an estimate of the interest saved in order to fully understand the loan terms and obligations before an offer is made and plan my finances accordingly.",
+                        "acceptance_criteria": [
+                            "The annual percentage rate must be clearly indicated.",
+                            "The total amount in euros over eight years must be specified.",
+                            "The total duration of the loan must be specified.",
+                            "The amount per payment period must be indicated.",
+                            "It must be specified whether the amount is added to the loan repayment due date.",
+                            "An early repayment simulation must be provided.",
+                            "An estimate of the interest saved in the event of early repayment must be included.",
+                            "The simulation and estimation must be updated according to changes in loan conditions (as described in user stories 3 and 6)."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": false,
+                        "testable": true,
+                        "id": "T2S_Deg_EP2_US0"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to receive information about the remaining capital to be repaid at least once a year, as well as details on accrued interest and potential penalties, so that I can track the progress of my loan and understand my financial obligations.",
+                        "acceptance_criteria": [
+                            "The information must be provided at least once a year.",
+                            "The remaining capital to be repaid must be clearly indicated.",
+                            "Accrued interest must be detailed.",
+                            "Potential penalties must be explained."
+                        ],
+                        "independent": false,
+                        "negotiable": true,
+                        "valuable": false,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Deg_EP2_US1"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that the value of in-kind benefits offered during a loan operation does not exceed the threshold set by the ministerial decree and that the in-kind benefits also comply with local regulations in order to remain compliant with regulations.",
+                        "acceptance_criteria": [
+                            "The value of benefits in kind must be checked against the threshold set by the ministerial decree.",
+                            "A warning must be generated if the value of benefits in kind exceeds the threshold.",
+                            "Benefits in kind must comply with local regulations.",
+                            "Benefits in kind must be manually checked by an auditor."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP2_US2"
+                    },
+                    {
+                        "user_story": "As a lender, I want to be able to adjust the interest rate in case of borrower default within the limits set by the decree until the borrower resumes normal repayment in order to manage the risks associated with borrower defaults.",
+                        "acceptance_criteria": [
+                            "The interest rate must be adjustable in case of borrower default.",
+                            "The interest rate adjustment must comply with the limits set by the decree.",
+                            "The specific details of the adjustment and the conditions for returning to normal must be defined by a technical team and approved by the compliance committee.",
+                            "The interest rate must return to normal once the borrower resumes normal repayment, subject to the approval of the compliance committee."
+                        ],
+                        "independent": true,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP2_US3"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to ensure that each loan is subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit when using multiple loans for the same operation, so that I do not commit to multiple loans without guarantee of their approval. Additionally, I want to be informed of the different steps of the approval process and the associated timelines.",
+                        "acceptance_criteria": [
+                            "Each loan must be subject to the suspensive condition of the approval of each other loan if the amount exceeds 10% of the total credit.",
+                            "The borrower must not be able to enter into multiple loans without assurance of their approval.",
+                            "The borrower must be informed of the different stages of the approval process.",
+                            "The borrower must be informed of the timeframes associated with each stage of the approval process."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": true,
+                        "estimable": true,
+                        "small": false,
+                        "testable": true,
+                        "id": "T2S_Deg_EP2_US4"
+                    },
+                    {
+                        "user_story": "As a lender, I want to ensure that standalone guarantees cannot be underwritten for loans falling under Chapters II and III of the relevant title, but only after checking the conditions of other types of guarantees and consulting with the legal department to remain compliant with regulations and internal policies.",
+                        "acceptance_criteria": [
+                            "Autonomous guarantees must not be subscribed for credits falling under Chapters II and III of the relevant title, unless the conditions for other types of guarantees are met.",
+                            "A warning must be issued if an independent guarantee is taken out for a loan falling under Chapters II and III of the relevant title, but only after consultation with the legal department.",
+                            "The system must allow the lender to submit a consultation request to the legal department before finalizing the subscription of autonomous guarantees."
+                        ],
+                        "independent": false,
+                        "negotiable": false,
+                        "valuable": false,
+                        "estimable": true,
+                        "small": true,
+                        "testable": true,
+                        "id": "T2S_Deg_EP2_US5"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to see an indication that the rate could be set after studying my situation so that I understand that the loan simulation is not necessarily a final offer, but it depends on several unspecified external factors.",
+                        "acceptance_criteria": [
+                            "It should be indicated that the rate could be set after studying the borrower's situation, but it depends on several unspecified external factors.",
+                            "The loan simulation should not be presented as a final offer, but it depends on several unspecified external factors."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP2_US6"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to understand the different costs associated with my loan, including mandatory insurance and other potential fees, so that I can make an informed decision.",
+                        "acceptance_criteria": [
+                            "The total cost of the loan must be presented in a way that allows the borrower to understand the different components, including mandatory insurance and other potential fees.",
+                            "Mandatory insurance and other potential fees must be clearly explained and separated from the total cost of the loan, but the borrower must be able to choose whether or not to include them in the displayed total cost.",
+                            "The user interface must allow the borrower to see the impact of mandatory insurance and other potential fees on the total cost of the loan in real time."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": true,
+                        "estimable": false,
+                        "small": true,
+                        "testable": false,
+                        "id": "T2S_Deg_EP2_US7"
+                    },
+                    {
+                        "user_story": "As a borrower, I want to explore different financing options for acquiring a property, without having a clear and immediate solution, in order to compare various financing scenarios.",
+                        "acceptance_criteria": [
+                            "The borrower must be able to explore different financing options for the acquisition of a property.",
+                            "The financing options presented do not necessarily have to be flexible or tailored to the specific needs of the borrower.",
+                            "The criteria for comparing the different financing options are not defined."
+                        ],
+                        "independent": true,
+                        "negotiable": true,
+                        "valuable": false,
+                        "estimable": false,
+                        "small": false,
+                        "testable": false,
+                        "id": "T2S_Deg_EP2_US8"
+                    }
+                ],
+                "id": "T2S_Deg_EP2"
+            }
+        ]
+    }
+}
